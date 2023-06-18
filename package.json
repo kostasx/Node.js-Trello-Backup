@@ -1,0 +1,16 @@
+{
+  "name": "node.js-trello-backup",
+  "version": "0.1.0",
+  "description": "Backup a Trello Board using Node.js and the Trello REST API",
+  "main": "trello-backup.js",
+  "scripts": {
+    "start": "node trello-backup.js"
+  },
+  "keywords": [],
+  "author": "https://github.com/kostasx",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "request": "^2.88.2"
+  }
+}
